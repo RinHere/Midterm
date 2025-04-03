@@ -25,4 +25,4 @@ while True:
         print("Mảng sau khi sắp xếp:", arr)
 
     except ValueError:
-        print("Vui lòng nhập một dãy số nguyên hợp lệ!")
+        print("Nhập một dãy số nguyên hợp lệ!")
