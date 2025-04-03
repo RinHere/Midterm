@@ -19,4 +19,4 @@ while True:
         else:
             print(f"{n} không phải là số nguyên tố.")
     except ValueError:
-        print("Vui lòng nhập một số nguyên hợp lệ!")
+        print("Nhập một số nguyên hợp lệ!")
