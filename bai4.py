@@ -1,6 +1,6 @@
 def fibonacci(n):
     if n < 0:
-        return "Vui lòng nhập số nguyên không âm."
+        return "Nhập số nguyên không âm."
     
     fib = [0, 1]  
     for i in range(2, n + 1):
@@ -15,8 +15,8 @@ while True:
             print("Kết thúc chương trình.")
             break
         if n < 0:
-            print("Vui lòng nhập số không âm!")
+            print("Nhập số không âm!")
         else:
             print(f"F({n}) = {fibonacci(n)}")
     except ValueError:
-        print("Vui lòng nhập một số nguyên hợp lệ!")
+        print("Nhập một số nguyên hợp lệ!")
