@@ -13,8 +13,8 @@ while True:
             print("Kết thúc chương trình.")
             break
         if n < 0:
-            print("Vui lòng nhập một số **không âm**.")
+            print("Nhập một số **không âm**.")
         else:
             print(f"{n}! = {tinh_giai_thua(n)}")
     except ValueError:
-        print("Vui lòng nhập một số nguyên hợp lệ!")
+        print("Nhập một số nguyên hợp lệ!")
